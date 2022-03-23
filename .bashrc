@@ -136,3 +136,5 @@ ex ()
   fi
 }
 alias config='/usr/bin/git --git-dir=/home/lasse/.cfg/ --work-tree=/home/lasse'
+
+export SUDO_ASKPASS="$HOME/.local/bin/dpass"
